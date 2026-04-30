@@ -19,11 +19,19 @@
 }
 
 .banner-bg {
-    background-image: url(../images/slider-blue-shadow.png);
+    background-image: url(./assets/images/slider-blue-shadow.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+}
+
+.proggress-report {
+  transition: transform 0.3s ease;
+}
+
+.proggress-report:hover {
+  transform: translateY(-8px);
 }
 
 .navbar {

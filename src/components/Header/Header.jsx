@@ -30,8 +30,8 @@ function Header() {
           </button>
 
           <ul className={`navbar-nav fw-bold ${menuOpen ? "d-block" : "d-none d-lg-flex"}`}>
-            {navItems.map((item, i) => (
-              <li key={i}>
+            {navItems.map((item) => (
+              <li key={item.name}>
                 <a className="nav-link" href={item.link}>
                   {item.name}
                 </a>
